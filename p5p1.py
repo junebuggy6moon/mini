@@ -3,9 +3,11 @@
 
 while True:
 
-    user_input = int(input("please give me a number."))
+    user_input_string = input("please give me a number.")
+
+    user_input = int(user_input_string)
 
     if user_input < 0:
-        print("It's negative.")
+        print(f"{user_input} is negative.")
     else:
         print(user_input)
