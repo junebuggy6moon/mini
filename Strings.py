@@ -21,6 +21,13 @@ name = "world"
 sentence = f"Hello, {name}."
 print(sentence)
 
+#3.5. An additional way to write strings which may be encountered similar to f-strings 
+# is using the following format where the variable is left
+
+name = "world"
+sentence = "Hello, {}."
+print(sentence.format(name))
+
 #4.A string in Python is a sequence of characters. You can access the characters one at a time using the index,
 #an expression in square brackets. The index indicates which letter is required from the string. For example,
 #consider the following code segment:
