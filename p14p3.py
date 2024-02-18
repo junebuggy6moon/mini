@@ -4,6 +4,7 @@
 
 user_num = input("Please enter a number: ")
 int_num = int(user_num)
+
 if int_num <= 0:
     print("The number must be positive!")
 
