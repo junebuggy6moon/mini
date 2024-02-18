@@ -14,7 +14,6 @@ elif int_num == 1:
 elif int_num > 1:
 
     for i in range(2, int_num):
-
         if int_num % i == 0:
             print(f"{int_num} It's not prime number")
             break
