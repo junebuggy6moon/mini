@@ -9,7 +9,7 @@ if int_num <= 0:
     print("The number must be positive!")
 
 elif int_num == 1:
-    print(f"{int_num} It's not prime number")
+    print(f"{int_num} It's not prime number.")
 
 elif int_num > 1:
 
