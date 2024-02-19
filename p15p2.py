@@ -6,7 +6,7 @@ def f(n):
 
     elif n > 1:
         answer = f(n - 1) + 2 ** (n - 1)
-        print(f"f({n}) = f({n} - 1) + 2 ** ({n} - 1) f = {(answer - 1) + 2 ** (n - 1)} = {answer}")
+        print(f"f({n}) = f({n} - 1) + 2 ** ({n} - 1) = {(answer - 1)} + {2 ** (n - 1)} = {answer}")
         return answer
 
 user_input = input("Please enter an number: ")
