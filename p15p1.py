@@ -10,8 +10,8 @@ def f(n):
 user_input = input("Please enter a number: ")
 int_input = int(user_input)
 
-if int_input <= 1:
-    print("The number you entered must be greater than 1.")
+if int_input < 1:
+    print("The number you entered must be greater than 0.")
 
 print(f(int_input))
 
