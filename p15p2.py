@@ -1,4 +1,4 @@
-
+ 
 def f(n):
     if n == 1:
         print("f(n) = 1")
