@@ -11,7 +11,9 @@
 
 import math
 
-user_input_length = float(input("Please gives me a length: \n"))
+user_input_string = float(input("Please gives me a length: \n"))
+
+user_input_length = float(user_input_string)
 
 square = user_input_length * user_input_length
 volume = user_input_length ** 3
